@@ -37,6 +37,7 @@ public class Character {
             System.out.println("the division of two numbers :" + division);
         }else{
             System.out.println("Wrong input");
+            System.out.println("hello");
         }
     }
 }
