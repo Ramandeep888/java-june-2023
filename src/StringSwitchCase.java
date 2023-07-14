@@ -13,7 +13,7 @@ public class StringSwitchCase {
             case "Pragra":
                 System.out.println("Address of " + name + " is 110 matheson blvd");
                 break;
-            case"Cn tower":
+            case"CnTower":
                 System.out.println("address of" + name + " is toronto");
                 break;
             default:
