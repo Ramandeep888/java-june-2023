@@ -3,6 +3,7 @@ public class AssignmentOperator {
         int a = 5;
         a +=2;
         System.out.println(a);
+        System.out.println(" hello world");
 
 
         ;
