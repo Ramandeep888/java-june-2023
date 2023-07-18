@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class CustomerCare {
-    public static void main(String[] args){
+    public static int String(){
         System.out.println("Welcome to Customer Care");
         System.out.println("Press 1 for English");
         System.out.println("Press 2 for French");
@@ -53,5 +53,7 @@ public class CustomerCare {
 
 
         }
+        return input ;
     }
+
 }

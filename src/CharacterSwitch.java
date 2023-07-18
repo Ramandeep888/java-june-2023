@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CharacterSwitch {
-    public static void main(String[] args){
+    public static int sum(){
         System.out.println("Welcome to my Calculator");
         Scanner sc = new Scanner(System.in);
         System.out.println("+ for addition");
@@ -34,7 +34,7 @@ public class CharacterSwitch {
             default:
                 System.out.println("invalid numbers");
 
-                }
+                }return ch;
 
 
 

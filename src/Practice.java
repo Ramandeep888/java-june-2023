@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Practice {
-    public static void main(String[] args) {
+    public static String Else() {
         Scanner sc = new Scanner(System.in);
         String input = "n";
         do {
@@ -26,6 +26,7 @@ public class Practice {
             System.out.println("do you want to exit? press y for yes and n for no");
             input = sc.next();
         } while (input != "y");
+        return input;
 
 
     }

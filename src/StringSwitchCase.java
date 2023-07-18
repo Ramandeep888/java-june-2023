@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class StringSwitchCase {
-    public static void main(String[] args){
+   //static  Scanner sc = new Scanner(System.in);
+    public static String String(){
         System.out.println("Welcome to my Calculator");
         Scanner sc = new Scanner(System.in);
         System.out.println(" press Pragra for address");
@@ -18,12 +19,7 @@ public class StringSwitchCase {
                 break;
             default:
                 System.err.println("invalid name");
-
-
-
-
-
-
         }
+        return name ;
     }
 }
